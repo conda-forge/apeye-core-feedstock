@@ -1,13 +1,13 @@
 {% set name = "apeye-core" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apeye-core-{{ version }}.tar.gz
-  sha256: 88aefbd25e514a3d713ee76ae309a62d319c70b3f734543fe757dc6efbdf66f5
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apeye_core-{{ version }}.tar.gz
+  sha256: b57953dbd13d6e6c6228281bbf4468b98bd21261f1b23812bfab811f247edc0a
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - flit-core >=3.2,<4
+    - hatch-requirements-txt
     - pip
     - python >=3.6
   run:
