@@ -1,11 +1,11 @@
-About apeye-core
-================
+About apeye-core-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apeye-core-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/apeye-core/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apeye-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Core (offline) functionality for the apeye library.
 
