@@ -1,5 +1,5 @@
 {% set name = "apeye-core" %}
-{% set version = "1.1.3" %}
+{% set version = "1.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apeye_core-{{ version }}.tar.gz
-  sha256: 9073195c739c4d3f959a5682fed2df7422064aa2fd8e9203ceb1e70644cacec5
+  sha256: 72bb89fed3baa647cb81aa28e1d851787edcbf9573853b5d2b5f87c02f50eaf5
 
 build:
   noarch: python
